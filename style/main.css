@@ -1,0 +1,216 @@
+:root{
+    -cor-1:#f5f5f7;
+    -cor-2:#000000cc;
+    -font: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    -buton: #0071e3;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+}
+
+hr{
+  margin-top: 20px;
+}
+
+h1{
+  color: #242424;
+  text-align: center;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 20PX;
+  font-size: 3rem;
+}
+
+h4{
+  color: #d2d2d7;
+  font-size: 13px;
+  margin: 10px;
+  padding: 20px;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: 400px;
+}
+
+
+.p{
+  color: #0071e3;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  font-size: 19px;
+  font-family:  "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.p2{
+  color:#242424;
+  text-align: center;
+  font-size: 21px;
+  font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+ margin-top: 10px;
+}
+/* ==================================================== */
+.item1, header{
+    color: #f5f5f7;
+    background: #000000cc;
+    text-align: center; 
+    margin:0;
+    padding: 10px; 
+    backdrop-filter: blur(10px);
+}
+
+.item1{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+
+a{
+  color: #e6e6e6; 
+  text-decoration: none;
+  margin: 10px; 
+  padding: 10px;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+ font-weight: 400px;
+ line-height: 1.23536;
+ font-size: 12px; 
+ letter-spacing: -.022em;
+ line-height: 1.23536;
+}
+
+a:hover{
+   color: white;
+}
+/* ====================Logo=============================== */
+.apple{
+   float: left;
+    width: 17px;
+    margin: 10px;
+    position: absolute;
+   left: 10px;
+   margin-top: -2px;
+   cursor: pointer; 
+}
+
+.bag{
+ 
+  float: right;
+  width: 25px;
+  margin: 10px;
+  /* position: absolute; */
+  /* left: 40px; */
+  margin-top: -2px;
+  cursor: pointer;
+}
+
+.bag{
+  color: #d2d2d7;
+}
+/* ==================================================== */
+.card{
+  display:flex;
+  position: inherit;
+  justify-content: center;
+  /* align-items: center; */
+  box-sizing: border-box;
+  margin-top: 20px;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.iphoneX{
+    width: 15rem;
+    margin-top: 20px;
+}
+
+.title{
+  color: #000000cc;
+  text-align: center;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+ margin-top: 10px;
+}
+
+.btn{
+  background-color: #0071e3;
+  color: #f5f5f7;
+  width: 110px;
+  height: 29px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 3px black;
+}
+
+.btn:hover{
+ opacity: 0.90;
+ cursor: pointer;
+}
+
+
+.p1{
+  float:right;
+  margin-right: 30px;
+  padding: 3px;
+  font-size: 18px;
+  margin-top: 10px;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+ 
+}
+
+.p1:hover{
+  text-decoration: underline;
+}
+/* ========================================================================== */
+.iphoneY{
+  width: 15rem;
+  margin-top: 20px;
+}
+
+.btn1{
+  background-color:  #ae1e2c;;
+  color: #f5f5f7;
+  width: 110px;
+  height: 29px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 3px black;
+}
+
+.title1{
+  color: #000000cc;
+  text-align: center;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 10px;
+}
+
+strong{
+  color: #ae1e2c;
+}
+
+.redPhone{
+  margin-left: 40px;
+}
+
+.blue{
+  font-weight: 400px;
+  color: #0071e3;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ========================================================================== */
+footer{
+  color: #f5f5f7;
+  background: #000000cc;
+  text-align: center; 
+  margin:0;
+  padding: 10px; 
+  backdrop-filter: blur(10px);
+
+}
